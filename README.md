@@ -6,7 +6,10 @@ unboxing azure dev boxes
 2. Install Azure CLI
 3. Authenticate using Azure CLI
 
-#Steps
-terraform init -upgrade
-terraform plan -out main.tfplan
-terraform apply
+# Steps
+1. terraform init -upgrade
+2. terraform plan -out main.tfplan
+3. terraform apply
+
+# Destroying
+4. terraform destroy
