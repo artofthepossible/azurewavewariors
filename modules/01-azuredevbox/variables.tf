@@ -5,8 +5,9 @@ description = "Location of the resource group."
 
 variable "rg_name" {
 type        = string
-default     = "rg-avd-resources"
-description = "Name of the Resource group in which to deploy service objects"
+default     = "${modules.00-Subscription.resource_group_name}"
+#default     = "rg-avd-resources"
+description = "Name of the Resource group created in 00-subcription in which to deploy service objects"
 }
 
 variable "workspace" {
